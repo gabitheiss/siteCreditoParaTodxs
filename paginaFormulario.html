@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link REL="SHORTCUT ICON" HREF="Icone.png" type="image/x-icon">
+    <title>Contato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <div id="pageContainer">
+        <header id="topo">
+            <div id="logo" href="">
+                <img src="Logo.png">
+            </div>
+            <div id="titulo">
+                <h1>Formulário de Contato</h1>
+            </div>
+        </header>
+        <div id="simulacao" class="d-grid gap-1  m-3 d-sm-flex justify-content-sm-center">
+            <form method="post" onsubmit="salvar(event)">
+                <div id="inputNome" class="input-group flex-nowrap">
+                    <span class="input-group-text">Nome Completo</span>
+                    <input id="nome" type="text" class="form-control" placeholder="Nome Completo">
+                </div>
+                <div id="inputFone" class="input-group flex-nowrap">
+                    <span class="input-group-text">Telefone</span>
+                    <input type="tel" class="form-control" placeholder="Telefone">
+                    <span class="input-group-text">WhatsApp</span>
+                    <input type="tel" class="form-control" placeholder="WhatsApp">
+                </div>
+                <div id="inputEmail" class="input-group flex-nowrap">
+                    <span class="input-group-text">E-mai</span>
+                    <input type="email" class="form-control" placeholder="exemplo@email.com.br">
+                </div>
+                <div id="inputCpf" class="input-group flex-nowrap">
+                    <span class="input-group-text">CPF</span>
+                    <input type="text" class="form-control" placeholder="CPF">
+                </div>
+                <div id="inputEndereco" class="input-group flex-nowrap">
+                    <span class="input-group-text">Endereço</span>
+                    <input type="text" class="form-control" placeholder="Rua">
+                    <span class="input-group-text">Número</span>
+                    <input type="number" class="form-control" placeholder="N°">
+                </div>
+                <div id="inputCidade" class="input-group flex-nowrap">
+                    <span class="input-group-text">Cidade</span>
+                    <input type="text" class="form-control" placeholder="Cidade">
+                    <span class="input-group-text">Estado</span>
+                    <input type="text" class="form-control" placeholder="Estado">
+                </div>
+                <div id="inputOpcao" class="input-group">
+                    <div class="input-group-text gap-2">
+                        <span>Você prefere que o contato seja:</span>
+                        <input class="form-check-input mt-0" type="checkbox">
+                        <span>E-mail</span>
+                        <input class="form-check-input mt-0" type="checkbox">
+                        <span>WhatsApp</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="enviar">
+            <a href="paginaFinal.html" <button id="buttonEnviar" class="btn btn-outline-dark">Enviar Dados</button></a>
+        </div>
+        <div id="rodape">
+            <footer>
+                <div id="textorodape">
+                    <p>CréditoParaTodxs</p> <br>
+                </div>
+                <p>Desafio Proway Serasa
+                    by <a href="https://github.com/gabitheiss">Gabriela Theiss</a></span>
+                </p>
+            </footer>
+        </div>
+    </div>
+</body>
+<script src="formulario.js"></script>
+
+</html>

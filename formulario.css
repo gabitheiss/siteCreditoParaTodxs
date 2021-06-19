@@ -1,0 +1,105 @@
+* {
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4f4f4;
+}
+#pageContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  height: 100vh;
+}
+
+#topo {
+  display: flex;
+  height: 180px;
+  justify-content: center;
+}
+#logo {
+  display: flex;
+  height: 200px;
+  padding: 30px;
+}
+#titulo {
+  color: #1c2a48;
+  display: flex;
+  height: 140px;
+  padding: 30px;
+  margin-top: 30px;
+}
+#inputNome {
+  display: flex;
+  width: 800px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+#inputFone {
+  display: flex;
+  width: 800px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+#inputEmail {
+  display: flex;
+  width: 800px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+#inputEndereco {
+  display: flex;
+  width: 800px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+#inputCpf {
+  display: flex;
+  width: 800px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+#inputCidade {
+  display: flex;
+  width: 800px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+#inputOpcao {
+  display: flex;
+  width: 800px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+#buttonEnviar {
+  width: 800px;
+  height: 40px;
+  bottom: 70px;
+  align-items: center;
+  position: fixed;
+}
+#rodape {
+  background-color: #1c2a48;
+  height: 60px;
+  width: 800px;
+  padding: 20px;
+  align-items: center;
+  bottom: 0;
+  position: fixed;
+}
+#textorodape p {
+  color: #f4f4f4;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+p,
+a {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 0px;
+}

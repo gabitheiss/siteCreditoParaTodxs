@@ -1,0 +1,33 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  background-color: #f4f4f4;
+}
+#conteudo {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#logo {
+  height: 200px;
+  margin: 30px;
+}
+#teste {
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  color: #1c2a48;
+  font-size: 20px;
+  height: auto;
+}
+#titulo {
+  margin: 20px;
+}
